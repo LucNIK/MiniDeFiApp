@@ -1,0 +1,92 @@
+/* Author: NIKABOU NADJOMBE
+/* Général */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* HEADER */
+.app-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+.wallet-address {
+  font-size: 0.9rem;
+  color: #f0b90b;
+  word-break: break-word;
+}
+
+/* BALANCES */
+.balances {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.balance-card {
+  background-color: #1e1e1e;
+  flex: 1 1 150px;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 120px;
+}
+
+/* SWAP SECTION */
+.swap-section {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* BOUTONS */
+button {
+  background-color: #f0b90b;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .balances {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .balance-card {
+    min-width: 100%;
+  }
+}
