@@ -1,3 +1,4 @@
+// Author: NIKABOU NADJOMBE
 // src/components/Wallet.jsx
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
