@@ -48,6 +48,8 @@ Connect your MetaMask wallet.
 Enter the amount and select tokens for swap (simulation only in v1-demo).
 
 Click "Swap" to see a simulated transaction notification.
+```
+
 
 Notes
 
